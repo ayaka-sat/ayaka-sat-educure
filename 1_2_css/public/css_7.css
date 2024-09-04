@@ -1,0 +1,23 @@
+#sub{
+	flex: 1;
+	background: limegreen;
+	width: auto;
+	height: auto;
+}
+
+main{
+	flex: 2;
+	background: gold;
+	width: auto;
+	height: auto;
+}
+
+div#contents{
+	overflow: hidden;
+	display: flex;
+	max-width: 300px;
+	margin: 0 auto;
+	flex-direction: row-reverse;
+	border: solid 5px red;
+	color: white;
+}

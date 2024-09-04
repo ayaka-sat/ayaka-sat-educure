@@ -1,0 +1,44 @@
+body {
+	background-image: url(images/bg_Argyle.jpg)
+}
+
+.centering_parent {
+	text-align: center;
+}
+
+.curry {
+	position: relative;
+	width: 378px;
+	height: 252px;
+	margin:0 auto ;
+	border: double 10px red;
+}
+
+.curry .img_center{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	width: 378px;
+	height: 252px;
+}
+.font_test{
+	color: red;
+	margin: auto;
+}
+
+td{
+	background-color: lightyellow;
+}
+
+table {
+	border-color: red; 
+}
+
+.po {
+	position: relative;
+	left: 60px;
+	color: red;
+}

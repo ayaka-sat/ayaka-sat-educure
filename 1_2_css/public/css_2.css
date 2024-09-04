@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body {
+	background-image: url(images/bg_Argyle.jpg);
+}
+
+ .centering_parent{
+	 text-align: center;
+}
+.box_a {
+	 background-color: white;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 650px;
+	 height: 550px;
+	 align-items: center;
+	 justify-content: center;
+	 border-radius: 30px;
+}
+
+.accented {
+	accent-color: gray;
+}
+
+.checkbox-6 {
+    border: none;
+}
+
+.checkbox-6 label {
+	display: inline-block;
+    align-items: center;
+    gap: 0.5em;
+    position: center;
+    max-width: 200px;
+    margin-bottom: .2em;
+    padding: .3em .3em;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.checkbox-6 label:has(:checked) {
+    background-color: gray;
+    color: black;
+}
+
+
+.checkbox-6 label::before {
+    width: 14px;
+    height: 14px;
+    border-radius: 1px;
+    background-color: lightgrey;
+    content: '';
+}
+
+.checkbox-6 label:has(:checked)::after {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    transform: rotate(45deg);
+    width: 8px;
+    height: 5px;
+    border-width: 0 2px 2px 0;
+    content: '';
+}
