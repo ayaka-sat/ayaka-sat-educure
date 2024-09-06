@@ -42,3 +42,7 @@ table {
 	left: 60px;
 	color: red;
 }
+
+.yoko {
+	display: flex;
+}
