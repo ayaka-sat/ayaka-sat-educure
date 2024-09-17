@@ -1,0 +1,81 @@
+.logo{
+	margin:  0 auto;
+	align-items: center;
+}
+
+
+ul {
+	list-style: none;
+	display: flex;
+	border: 1px solid gray;
+	width: 800px;
+	height: 30px;
+	position: relative;
+	padding-left: 0px;
+	border-radius: 5px;
+	background-color: rgb(240, 240, 240);
+	margin-left: auto;
+	margin-right: auto;;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 100px;
+	height: 30px;
+	margin-left: 0;
+	border-right: 1px solid gray;
+	
+}
+
+nav ul li a:hover{
+	background-color: white;
+	color: black;
+	
+}
+
+a link[herf="home.html"] {
+	border-radius: 5px 5px 0 0;
+}
+
+.box01{
+	display:flex;
+	width: 800px;
+	margin:0 auto;
+}
+.box01 div{
+	width: 100%;
+}
+
+.box02{
+	background-color: rgb(235, 235, 235);
+	border-radius: 5px;
+	border:1px solid  rgb(235, 235, 235)
+}
+
+.bbb{
+	display: flex;
+	border-top: 1px solid black;
+	width: 800px;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.bbb div{
+	width: 100%;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+.font{
+	font-size: 0.5;
+	font-family: Noto Serif JP',sans-serif;
+}
+
+.aaa{
+	margin:  0 auto;
+}
