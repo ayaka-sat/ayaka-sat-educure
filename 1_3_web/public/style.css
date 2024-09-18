@@ -1,23 +1,24 @@
-.logo{
-	margin:  0 auto;
-	align-items: center;
+body {
+	margin: 0 auto;
+	width: 900px;
+	font-size: 15px;
 }
 
+.logo{
+	align-items: left;
+}
 
 ul {
 	list-style: none;
 	display: flex;
 	border: 1px solid gray;
-	width: 800px;
+	width: 900px;
 	height: 30px;
-	position: relative;
-	padding-left: 0px;
+	padding: 0px;
 	border-radius: 5px;
-	background-color: rgb(240, 240, 240);
-	margin-left: auto;
-	margin-right: auto;;
+	background-color: whitesmoke;
+	
 }
-
 nav ul li a {
 	text-decoration: none;
 	color: blue;
@@ -29,53 +30,66 @@ nav ul li a {
 	height: 30px;
 	margin-left: 0;
 	border-right: 1px solid gray;
-	
 }
-
-nav ul li a:hover{
+nav ul li a:hover {
 	background-color: white;
 	color: black;
-	
+	border-radius: 5px 0 0 5px;
 }
 
 a link[herf="home.html"] {
-	border-radius: 5px 5px 0 0;
-}
-
-.box01{
-	display:flex;
-	width: 800px;
-	margin:0 auto;
-}
-.box01 div{
-	width: 100%;
-}
-
-.box02{
-	background-color: rgb(235, 235, 235);
 	border-radius: 5px;
-	border:1px solid  rgb(235, 235, 235)
 }
 
-.bbb{
+.sample-main{
+	display: flex;
+	margin: 10px 0;
+}
+
+.sample-left {
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.sample-right {
+	background-color: whitesmoke;
+	border-radius: 5px;
+	border: 1px solid whitesmoke;
+	box-shadow:2px 1px lightgray;
+	padding: 10px 0;
+}
+
+.sample-right div {
+	display: flex;
+	padding: 10px 0;
+}
+
+.sample-right img{
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+.bbb {
 	display: flex;
 	border-top: 1px solid black;
-	width: 800px;
+	width: 900px;
 	justify-content: center;
 	margin: 0 auto;
+	text-align: left;
 }
 
-.bbb div{
+.bbb div {
 	width: 100%;
 	padding-right: 10px;
 	padding-top: 5px;
 }
 
-.font{
-	font-size: 0.5;
-	font-family: Noto Serif JP',sans-serif;
+.font {
+	text-align: center;
 }
 
-.aaa{
-	margin:  0 auto;
+.aaa {
+	margin: 0 auto;
 }
